@@ -1,0 +1,16 @@
+
+Feature: Frame a Photo
+
+Scenario: User Just loaded the App
+	When App is Loaded
+	Then Allow User To Upload Image
+	Then User can add one Frame at a time from a pool of frames
+	Then User can save image as png
+
+
+
+
+//can add up to 3 frames
+	//can add 1 frame at a time
+	//each frame comes from set of 5 frames
+
